@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Carter+One&family=Fredoka+One&family=Montserrat:wght@300;500;600&family=Pacifico&family=Poppins:ital,wght@0,100;0,400;0,800;0,900;1,400;1,900&family=Raleway:ital@1&family=Secular+One&family=Shadows+Into+Light&display=swap');
+
+
+.main {
+    background: linear-gradient(rgb(9, 9, 9), #282626);
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    color: white;
+    
+}
+
+.form__title{
+  font-size: 35px;
+  margin-bottom:40px;
+  
+}
+
+.form__container p{
+  padding: 20px 20px 20px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 23px;
+  color: #eb6262;
+   
+}
+
+.form__input {
+    padding: 15px 35px 15px 15px;
+    border-radius: 1rem;
+}
+
+.form__input__comentario {
+    padding: 15px 35px 100px 15px;
+    border-radius: 1rem;
+}
+
+.btn--submit{
+    margin-top: 50px;
+    font-size: 0.9rem;
+    transition: all 0.4s ease;
+    padding: 15px 25px;
+    border-radius: 1rem;
+    cursor: pointer;
+    background: linear-gradient(#fb9797, #e62222);
+}
+
+.contactos{
+   font-size: 25px;
+   gap: 5px;
+}
+
+
+
+    

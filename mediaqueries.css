@@ -1,0 +1,125 @@
+@media (max-width: 992px) {
+
+    .navbar {
+        gap: 10px;
+    }
+
+    .navbar-list {
+        position: absolute;
+        top: 70px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        padding: 10px 0 12px;
+        background: #252525;
+        border: 2px solid rgb(244, 49, 49);
+        border-top: none;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+
+    }
+
+    .navbar-list a {
+        font-size: 18px;
+    }
+
+    .menu-icon {
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+
+
+    .menu-label img {
+        width: 25px;
+        height: 25px;
+    }
+
+
+    #menu-toggle:checked+.navbar-list {
+        display: flex;
+        transition: all 0.20s ease-in;
+    }
+
+
+
+    #home {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        /* gap:20px; */
+    }
+
+    .home_parrafo {
+        width: 80%;
+        max-width: 500px;
+        min-width: unset;
+        top: 90px;
+        left: 450px;
+    }
+
+    .home_parrafo p {
+        display: none;
+    }
+
+    #nosotros {
+        text-align: center;
+    }
+
+    #nosotros img {
+        display: none;
+    }
+
+    #servicios {
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+
+    .servicios_ser {
+        flex-wrap: wrap;
+    }
+
+    .opiniones_img {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        justify-content: center;
+    }
+
+    .container_item {
+        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px auto;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .item:nth-child(even),
+    .item:nth-child(odd) {
+        grid-column: auto;
+        grid-row: auto;
+        height: 300px;
+        width: 300px;
+
+    }
+}
+
+@media (max-widt: 576px) {
+    #nosotros {
+        display: flex;
+        justify-content: center;
+    }
+}
